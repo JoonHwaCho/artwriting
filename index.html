@@ -7,11 +7,11 @@
     <title>예술로 글쓰기 전시회</title>
   </head>
   <body>
+    <div class="container">
     <h1>2023 예술로 글쓰기 ✨</h1>
     <div class="audioCont">
       <div class="writerSelectCont">
-        <label for="options">작가 선택</label>
-        <select id="options" onchange="updatePage()">
+        <select id="options" onchange="updatePage()" title="작가 선택">
           <option value="option0">작가를 선택하세요.</option>
           <option value="option1">지니 (허영진)</option>
           <option value="option2">빌리 (이동용)</option>
@@ -45,5 +45,6 @@
       <!-- Content will be updated dynamically -->
     </div>
     <script src="index.js"></script>
+    </div>
   </body>
 </html>
