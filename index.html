@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>예술로 글쓰기 전시회</title>
+  </head>
+  <body>
+    <h1>2023 예술로 글쓰기 ✨</h1>
+    <div class="audioCont">
+      <div class="writerSelectCont">
+        <label for="options">작가 선택</label>
+        <select id="options" onchange="updatePage()">
+          <option value="option0">작가를 선택하세요.</option>
+          <option value="option1">지니 (허영진)</option>
+          <option value="option2">빌리 (이동용)</option>
+          <option value="option3">릴리 (이채린)</option>
+          <option value="option4">카렌 (배경아)</option>
+          <option value="option5">휴고 (황정훈)</option>
+          <option value="option6">소울 (김지원)</option>
+          <option value="option7">바트 (박수석)</option>
+          <option value="option8">리암 (조준화)</option>
+          <option value="option9">피터 (권명규)</option>
+          <option value="option10">곤 (강근철)</option>
+        </select>
+      </div>
+      <div class="audioplayer">
+        <a id="audio1" href="./음성파일/지니%20음성%20파일.mp4" style="display: none">🎧지니의 낭독 듣기</a>
+        <a id="audio2" href="./음성파일/빌리%20음성%20파일.mp4" style="display: none">🎧빌리의 낭독 듣기</a>
+        <a id="audio3" href="./음성파일/릴리%20음성%20파일.mp4" style="display: none">🎧릴리의 낭독 듣기</a>
+        <a id="audio4" href="./음성파일/카렌%20음성%20파일.mp4" style="display: none">🎧카렌의 낭독 듣기</a>
+        <a id="audio5" href="./음성파일/휴고%20음성%20파일.mp4" style="display: none">🎧휴고의 낭독 듣기</a>
+        <a id="audio6" href="./음성파일/소울%20음성%20파일.mp4" style="display: none">🎧소울의 낭독 듣기</a>
+        <a id="audio7" href="." style="display: none">🎧바트의 음성 듣기</a>
+        <a id="audio8" href="./음성파일/리암%20음성%20파일.mp4" style="display: none">🎧리암의 낭독 듣기</a>
+        <a id="audio9" href="./음성파일/피터%20음성%20파일.mp4" style="display: none">🎧피터의 낭독 듣기</a>
+        <a id="audio10" href="./음성파일/곤의%20음성%20파일.mp4" style="display: none">🎧곤의 낭독 듣기</a>
+        <div id="player">
+          <!-- Audio player will be inserted here -->
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <!-- Content will be updated dynamically -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
