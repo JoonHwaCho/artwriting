@@ -10,7 +10,7 @@
 
 div {
   /* border: 1px solid black; */
-  border-radius: 0px 10px 10px;
+  border-radius: 10px;
   margin: 2rem;
   padding: 5rem;
   text-align: center;
@@ -47,7 +47,6 @@ select {
   padding: 0.5rem;
   border: 2px solid #ccc;
   border-radius: 4px;
-  padding: 8px;
   color: #333;
 }
 label {
@@ -110,7 +109,6 @@ a:visited {
     padding: 0.1rem;
     border: 2px solid #ccc;
     border-radius: 4px;
-    padding: 8px;
     color: #333;
   }
   audio {
@@ -123,7 +121,7 @@ a:visited {
   div {
     /* background-color: aliceblue; */
     /* width: 90%; */
-    border-radius: 0px 10px 10px;
+    border-radius: 10px;
     margin: 2rem;
     padding: 0.5rem;
     line-height: 1.5rem;
@@ -170,7 +168,6 @@ a:visited {
     padding: 0.1rem;
     border: 2px solid #ccc;
     border-radius: 4px;
-    padding: 8px;
     color: #333;
   }
   audio {
@@ -182,7 +179,7 @@ a:visited {
   }
   div {
     /* background-color: aliceblue; */
-    border-radius: 0px 10px 10px;
+    border-radius: 10px;
     margin: 2rem;
     padding: 0.5rem;
     line-height: 1.5rem;
