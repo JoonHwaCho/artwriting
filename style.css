@@ -18,4 +18,4 @@ select {
   }
 .audioplayer{margin: 2rem 0;font-weight: 700;}
 .audioplayer a{font-size:1.2rem;text-decoration: none;color:#333;}
-#content{border-radiusbackground: aliceblue;}
+#content{border-radius:10px;background: aliceblue;}
