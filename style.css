@@ -4,6 +4,7 @@
 
 .container{margin: 15px; color:#333;text-align: center;}
 h1{ margin: 2rem 0 2.5rem;font-size: 1.7rem;letter-spacing: -.1rem;}
+h2{word-break: keep-all;}
 select {    
     width: 100%; 
     font-size: 1.4rem;
